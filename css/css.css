@@ -10,10 +10,17 @@ h1 {
     max-width: 100%;
     min-width: 300px;
     height: auto;
+    border: 20px double;
+    padding: 5px;
+    font-family: Verdana, sans-serif;
 }
 
 p {
     font-size: 1em;
+}
+
+ul {
+    font-family: Verdana, sans-serif;
 }
 
 a {
