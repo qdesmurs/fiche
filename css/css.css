@@ -1,0 +1,37 @@
+body {
+    background-image: url("/home/quentin/Code/fiche/image/thrasher-vans-red-board-x-446614.jpg");
+    background-size: cover;
+}
+
+label {
+    color: red;
+}
+
+h1 {
+    color: black;
+    font-size: 4em;
+    text-align: center;
+}
+
+a {
+    color: red;
+    background-color: black;
+}
+
+label.Yolo {
+    color: blue;
+}
+
+p {
+    font-size: 1em;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+}
+
+img.doge {
+    width: 200px;
+    height: 200px;    
+}

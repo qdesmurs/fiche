@@ -2,17 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link href="./css/css.css" rel="stylesheet" />
+        <link href="./css/yolo.css" rel="stylesheet" />
         <title>1st Site</title>
     </head>
     <body>
         <h1><u>Présentation</u></h1>
-        <div>
-            <img src ="/home/quentin/Code/fiche/image/raw.gif" />
-        </div>
-        <div>
-            <img class="doge" src ="/home/quentin/Code/fiche/image/raw.gif" />
-        </div>
         <div>
         <h3><a href="http://www.thrashermagazine.com/">Thrasher Site</a></h3>
         </div>
@@ -32,10 +26,10 @@
                     <input type="text" value="Quentin"/></li>
             </ul>
             <input type="range"/>
-            <div>
+                <div>
             <input type="checkbox" id="chkbox" value="La réponse D"/>
             <label for="chkbox">La réponse D</label>
-            </div>
-            <p><label class="Yolo">YOLO</label></p>
+                </div>
+            <label class="Yolo">YOLO</label>
     </body>
 </html>
