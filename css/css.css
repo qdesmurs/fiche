@@ -1,17 +1,17 @@
 body {
-    background-image: url("../image/thrasher-vans-red-board-x-446614.jpg");
+    background-image: url('/home/quentin/Code/fiche/image/suchbg.png');
     background-size: cover;
 }
 
 h1 {
     color: black;
-    font-size: 4em;
+    font-size: 3em;
     text-align: center;
     max-width: 100%;
     min-width: 300px;
     height: auto;
-    border: 20px double;
-    padding: 5px;
+    border: 10px double;
+    padding: 4px;
     font-family: Verdana, sans-serif;
 }
 
@@ -32,16 +32,21 @@ a:hover {
     background-color: yellow;
 }
 
-img.doge {
+#doge {
+    background-image: url('/home/quentin/Code/fiche/image/danger.jpg');
+    background-size: 100%;
+    background-position: center;
+    width: 600px;
+    height: 450px;
     float: right;
 }
 
-img.doge2 {
-    width: 100px;
-    height: 100px;
-    max-width: 100%;
-    min-width: 100px;
-    height: auto;
+#doge:hover {
+    background-image: url('/home/quentin/Code/fiche/image/danger.gif');
+    background-size: 100%;
+    background-position: center;
+    width: 600px;
+    height: 450px;
 }
 
 label {
