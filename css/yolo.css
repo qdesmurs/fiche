@@ -1,0 +1,20 @@
+body {
+    text-align:center;
+    font-family: "Courier New", Courier, monospace;
+    font-weight: 300;
+    background-color: #DCDCDC;
+    background-size: cover;
+}
+.jumbotron {
+    margin-top: 50px;
+    background-image: url('/home/quentin/Code/fiche/image/largeimg.jpg');
+    background-size: cover;
+    height: 150px;
+    align-items:center;
+}
+.jumbotron h1 {
+    display: inline;
+    font-size: 150px;
+    font-weight: 900;
+    text-align: center;
+}

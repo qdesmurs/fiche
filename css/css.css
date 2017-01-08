@@ -36,8 +36,8 @@ a:hover {
     background-image: url('/home/quentin/Code/fiche/image/danger.jpg');
     background-size: 100%;
     background-position: center;
-    width: 600px;
-    height: 450px;
+    width: 450px;
+    height: 337px;
     float: right;
 }
 
@@ -45,8 +45,8 @@ a:hover {
     background-image: url('/home/quentin/Code/fiche/image/danger.gif');
     background-size: 100%;
     background-position: center;
-    width: 600px;
-    height: 450px;
+    width: 450px;
+    height: 337px;
 }
 
 label {
