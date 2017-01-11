@@ -1,3 +1,6 @@
+body {
+    background-color: white;
+}
 header {
     background-color: black;
     padding-left: 2em;
@@ -8,13 +11,17 @@ header {
 img {
     border-radius: 1em;
 }
+img:hover {
+    transform: rotate(360deg);
+    transition: all .5s;
+}
 p {
     float: right;
     color: white;
     margin-top: -1em;
 }
 nav {
-    background-color: grey;
+    background-color: white;
     float: right;
     width: 65%;
     margin-top: 1em;
@@ -26,32 +33,44 @@ nav {
     font-size: 100%;
 }
 li {
-    display: inline-block;;
+    display: inline-block;
     padding: 1em;
 }
 aside {
-    background-color: green;
+    background-color: grey;
     float: left;
     width: 15%;
     height: auto;
     display: inline-block;
     margin-top: 1em;
+    padding: 1em;
+    border-radius: 1em;
 }
 section {
-    background-color: yellow;
+    background-color: white;
     height: auto;
     display: inline-block;
     margin-bottom: 1em;
     padding: 1em;
+    width: 97%;
+    border-radius: 1em;
 }
 main {
-    background-color: grey;
+    background-color: black;
     height: auto;
-    width: 65em;
-    float: right;
+    width: 63em;
+    float: left;
     margin-top: 1em;
     border-radius: 1em;
     padding: 1em;
+}
+#ChampTexte {
+    display: inline-block;
+    margin-bottom: 1em;
+}
+#ChampTexte2 {
+    display: inline-block;
+    margin-bottom: 1em;
 }
 a:visited {
     color: red;
@@ -60,10 +79,46 @@ a:hover{
     background-color: black;
 }
 footer {
-    background-color: red;
-    float: right;
-    width: 100%;
+    background-color: black;
     height: auto;
+    width: auto;
     display: inline-block;
-    margin-top: 1em;
+    margin: 1em;
+    padding: 2em;
+    border-radius: 1em;
+}
+label {
+    display: inline-block;
+    margin-bottom: 1em;
+    margin-left: 2em;
+    width: 5em;
+}
+form {
+    width: 50em;
+    margin: 1em;
+}
+fieldset {
+    width: 23em;
+    display: inline-block;
+}
+.Yolo {
+    color: blue;
+}
+h2 {
+    text-decoration: underline;
+}
+#fb {
+    margin-right: 3em;
+}
+#git {
+    margin-right: 3em;
+}
+#trello {
+    margin-right: 3em;
+}
+#ccombat {
+    margin-right: 3em;
+}
+#steam {
+    margin-right: 3em;
 }

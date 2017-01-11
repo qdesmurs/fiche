@@ -7,7 +7,7 @@
     </head>
     <body>
         <header id="#top">
-            <img src="/home/quentin/Code/fiche/image/doge.png" alt="">
+            <img src="/home/quentin/Code/fiche/image/doge.png" alt="spin doge">
             <p>Desmurs Quentin</p>
             <nav>
                 <h1>PRESENTATION</h1>
@@ -30,7 +30,7 @@
                     <li><label for="ChampTexte">Last Name :</label>
                     <input type="text" id="ChampTexte" value="Desmurs" size="3"/></li>
                     <li><label for="ChampTexte">First Name :</label>
-                    <input type="text" value="Quentin" size="5"/></li>
+                    <input type="text" id="ChampTexte2" value="Quentin" size="5"/></li>
                     <li>Birthday: 30 Juillet 1992</li>
                     <li>Years old: 24 ans</li>
                     <li>Adress: 27 Avenue du 11 Novembre, 48000 Mende, France</li>
@@ -48,7 +48,7 @@
                     <label for="chkbox">La réponse D</label>
                     </div>
                     <p><label class="Yolo">YOLO</label></p>
-                    <h2>DON'T TOUCH DOGE IN DOGE SITE PLS!</h2>
+                    <h3>DON'T TOUCH DOGE IN DOGE SITE PLS!</h3>
                     <div>
                     <h3><a href="/home/quentin/Code/fiche/Fichesmlg.html">DOGE SITE</a></h3>
                     </div>
@@ -67,12 +67,73 @@
             </section>
             <section id="contacts">
                 <h2>Contacts</h2>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                <form action="http://live.codincamp.fr/mail.php" method="post">
+                    <fieldset>
+                        <legend>Informations:</legend>
+                                <label>Nom:</label>
+                                <input type="text" name="name" />
+
+                                <label>Prenom:</label>
+                                <input type="text" name="firstname" />
+
+                                <label>Age:</label>
+                                <input type="number" name="age" />
+
+                                <label>E-mail:</label>
+                                <input type="email" name="email" />
+
+                                <label>Sujet:</label>
+                                <input type="text" name="subject" />
+                    </fieldset>
+                    <fieldset>
+                        <legend>Commentaires:</legend>
+                        <textarea name="message" cols="50" rows="12"></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Animaux:</legend>
+                        <label for="cbox1">Chien</label>
+                        <input type="checkbox" id="cbox1" value="checkbox1">
+
+                        <label for="cbox2">Chat</label>
+                        <input type="checkbox" id="cbox2" value="checkbox1">
+
+                        <label for="cbox3">Lapin</label>
+                        <input type="checkbox" id="cbox3" value="checkbox1">
+
+                        <label for="cbox4">gdjhlm</label>
+                        <input type="checkbox" id="cbox4" value="checkbox1">
+
+                        <label for="cbox5">T-rex</label>
+                        <input type="checkbox" id="cbox5" value="checkbox1">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Region:</legend>
+                        <label for="chbox1">Europe</label>
+                        <input type="radio" name="choice" id="chbox1" value="checkbox1">
+
+                        <label for="chbox2">Asie</label>
+                        <input type="radio" name="choice" id="chbox2" value="checkbox1">
+
+                        <label for="chbox3">Murica</label>
+                        <input type="radio" name="choice" id="chbox3" value="checkbox1">
+
+                        <label for="chbox4">Africa</label>
+                        <input type="radio" name="choice" id="chbox4" value="checkbox1">
+
+                        <label for="chbox5">Narnia</label>
+                        <input type="radio" name="choice" id="chbox5" value="checkbox1">
+                    </fieldset>
+                    <input type="submit" name="send" value="Envoyer"/>
+                </form>
             </section>
-                <a href="#top">Top</a>
         </main>
         <footer>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+            <a href="https://www.facebook.com/agora.onion"><img src="/home/quentin/Code/fiche/image/fbicon.png" id="fb" alt="fbicon"/></a>
+            <a href="https://github.com/qdesmurs"><img src="/home/quentin/Code/fiche/image/githubimg.png" id="git" alt="giticon"/></a>
+            <a href="https://trello.com/codincamppromo2"><img src="/home/quentin/Code/fiche/image/trello.png" id="trello" alt="trelloicon"/></a>
+            <a href="https://codecombat.com/user/qdesmurs"><img src="/home/quentin/Code/fiche/image/ccombat.jpeg" id="ccombat" alt="ccombaticon"/></a>
+            <a href="http://steamcommunity.com/id/CaptainZhor"><img src="/home/quentin/Code/fiche/image/steam.png" id="steam" alt="steamicon"/></a>
+            <a href="#top"><img src="/home/quentin/Code/fiche/image/backtotop.jpg" alt="topicon"/></a>
         </footer>
     </body>
 </html>
